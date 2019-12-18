@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: underline;
+  color: white;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #ffffff;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #ffffff; 
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.input:focus{
+	margin-top: 3.5px;
+}
+.signIn{
+  width: 100%;
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  transition: 0.5s;
+
+}
+.signIn:hover{
+  background: #ffffff;
+  border-color: #ffffff;
+  color: black;
+  font-weight: bolder;
+  filter: brightness(95%);
+  transition: 0.8s;
+}
+.extras {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px;
+}
